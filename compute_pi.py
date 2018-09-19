@@ -58,7 +58,7 @@ if __name__=="__main__":
     print("Using output_dir: " + output_dir)
     
     itnum=20
-    pi = chudnovskyBig(itnum) # you can change that to plouffBig(itnum) or bellardBig(itnum)
+    pi = chudnovskyBig(itnum) * 2 # you can change that to plouffBig(itnum) or bellardBig(itnum)
     
     print "After", itnum, "iterations, pi =", pi
          
