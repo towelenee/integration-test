@@ -6,6 +6,7 @@ Created on Sat Oct 28 12:15:22 2017
 @author: http://blog.recursiveprocess.com/2013/03/14/calculate-pi-with-python/
 """
 
+
 from decimal import *
 from sys import argv
 from os import path
