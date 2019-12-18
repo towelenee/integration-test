@@ -65,7 +65,7 @@ if __name__=="__main__":
     itnum=20
     pi = plouffBig(itnum) # you can change that to plouffBig(itnum) or bellardBig(itnum)
     
-    print "After", itnum, "iterations, pi =", pi
+    print("After", itnum, "iterations, pi =", pi)
          
     with open(path.join(output_dir, 'answer.txt'), 'wb') as result_file:
         result_file.write(str(pi))
