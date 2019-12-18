@@ -67,7 +67,7 @@ if __name__=="__main__":
     
     print("After", itnum, "iterations, pi =", pi)
          
-    with open(path.join(output_dir, 'answer.txt'), 'wb') as result_file:
+    with open(path.join(output_dir, 'answer.txt'), 'w') as result_file:
         result_file.write(str(pi))
 
 
