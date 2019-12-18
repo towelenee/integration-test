@@ -10,6 +10,10 @@ Created on Sat Oct 28 12:15:22 2017
 from decimal import *
 from sys import argv
 from os import path
+from comet_ml import Experiment
+
+exp = Experiment(
+    project_name='comet-test')
 
 #Sets decimal to 25 digits of precision
 getcontext().prec = 25
